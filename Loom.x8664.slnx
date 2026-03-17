@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Loom.X8664.App/Loom.X8664.App.csproj" />
+  <Project Path="Loom.x8664/Loom.x8664.csproj" />
+</Solution>
