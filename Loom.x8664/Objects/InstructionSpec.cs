@@ -8,7 +8,7 @@ namespace Loom.x8664.Objects
     public struct InstructionSpec
     {
         public byte MoveRegisterRight(byte register) => (byte)(register >> 3);
-        public byte MoveRegisterLeft(byte register) => (byte)(register << 3);
+        public static byte MoveRegisterLeft(byte register) => (byte)(register << 3);
 
         public enum Modifiers : byte         
         {
